@@ -1,0 +1,30 @@
+{
+  "name": "restaurant_page",
+  "version": "1.0.0",
+  "description": "3 tabbed webpage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrdoza/restaurant_page.git"
+  },
+  "keywords": [
+    "odin"
+  ],
+  "author": "mrdoza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrdoza/restaurant_page/issues"
+  },
+  "homepage": "https://github.com/mrdoza/restaurant_page#readme",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.0",
+    "os-browserify": "^0.3.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
