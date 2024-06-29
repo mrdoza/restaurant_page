@@ -1,0 +1,74 @@
+#content {
+  min-height: 100vh;
+  background-color: #7fd1f4;
+  background-image: url("./pxfuel.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+button {
+  border: none;
+  color: #e48585;
+  background-color: #12252d;
+  height: 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: darkslategrey;
+}
+
+.menu {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  text-shadow: 1px 1px 2px #000;
+  font-size: 20px;
+  font-weight: bold;
+  color: #e48585;
+  text-align: left;
+}
+
+.home {
+  flex-direction: column;
+  text-shadow: 1px 1px 2px #000;
+  font-size: 20px;
+  font-weight: bold;
+  color: #e48585;
+  padding: 30px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.home > h1 {
+  margin-left: 40%;
+}
+.home > p {
+  margin-left: 40%;
+  margin-right: 20%;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  padding: 30px;
+  text-shadow: 1px 1px 2px #000;
+  font-size: 20px;
+  font-weight: bold;
+  color: #e48585;
+  text-align: center;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+}
